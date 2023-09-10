@@ -1,6 +1,6 @@
 # Aplicativo de Gestão de Uso de Veículos 🚗
 
-![Imagem do Figma](url-da-sua-imagem-ou-logo.jpg)
+![Imagem do Figma](/.screenshoot/main.png)
 
 Este é um aplicativo desenvolvido em React Native que oferece recursos para **registrar e gerenciar a utilização de veículos em empresas**. O aplicativo permite que os colaboradores registrem o uso de veículos da empresa, além de fornecer recursos de autenticação e integração com APIs de mapas e bancos de dados.
 
