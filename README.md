@@ -20,13 +20,13 @@ Antes de começar, certifique-se de ter o ambiente de desenvolvimento React Nati
 1. **Clone este repositório:**
 
    ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/Pedrowesley/ignite-fleet-react-native.git
    ```
 
 2. **Navegue até o diretório do projeto:**
 
    ```
-   cd nome-do-repositorio
+   cd ignite-fleet-react-native
    ```
 
 3. **Instale as dependências do projeto:**
