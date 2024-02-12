@@ -1,102 +1,100 @@
-# Aplicativo de Gestão de Uso de Veículos 🚗
+# React Native - Vehicle Management Application 🚗
 
-![Imagem do Figma](/.screenshoot/main.png)
+![Figma Image](/.screenshoot/main.png)
 
-Este é um aplicativo desenvolvido em React Native que oferece recursos para **registrar e gerenciar a utilização de veículos em empresas**. O aplicativo permite que os colaboradores registrem o uso de veículos da empresa, além de fornecer recursos de autenticação e integração com APIs de mapas e bancos de dados.
+This is a React Native application offering features to **register and manage vehicle usage within companies**. The app allows employees to record company vehicle usage and provides authentication features and integration with map APIs and databases.
 
-## Conteúdo
+## Table of Contents
 
-- [Instalação](#instalação)
-- [Configuração](#configuração)
-- [Funcionalidades](#funcionalidades)
-- [Documentação](#documentação)
-- [Bibliotecas e Tecnologias Utilizadas](#bibliotecas-e-tecnologias-utilizadas)
-- [Licença](#licença)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Features](#features)
+- [Documentation](#documentation)
+- [Used Libraries and Technologies](#used-libraries-and-technologies)
+- [License](#license)
 
-## Instalação 🛠️
+## Installation 🛠️
 
-Antes de começar, certifique-se de ter o ambiente de desenvolvimento React Native configurado em sua máquina. Você pode seguir as [instruções de instalação](https://reactnative.dev/docs/environment-setup) na documentação oficial do React Native.
+Before getting started, make sure you have the React Native development environment set up on your machine. Follow the [installation instructions](https://reactnative.dev/docs/environment-setup) in the official React Native documentation.
 
-1. **Clone este repositório:**
+1. **Clone the repository:**
 
    ```
    git clone https://github.com/Pedrowesley/ignite-fleet-react-native.git
    ```
 
-2. **Navegue até o diretório do projeto:**
+2. **Navigate to the project directory:**
 
    ```
    cd ignite-fleet-react-native
    ```
 
-3. **Instale as dependências do projeto:**
+3. **Install the project dependencies:**
 
    ```
    npm install
    ```
 
-4. **Inicie o aplicativo:**
+4. **Start the application:**
 
    ```
    npm start
    ```
 
-   Isso iniciará o Metro Bundler e fornecerá opções para executar o aplicativo em emuladores ou dispositivos físicos.
+   This will start the Metro Bundler and provide options to run the app on emulators or physical devices.
 
-## Configuração ⚙️
+## Configuration ⚙️
 
-Para usar o aplicativo, é necessário configurar algumas variáveis de ambiente e integrar serviços externos. Siga os passos abaixo:
+To use the app, some environment variables and external service integrations need to be configured. Follow these steps:
 
-### Variáveis de Ambiente 🔑
+### Environment Variables 🔑
 
-O aplicativo utiliza variáveis de ambiente para configurar informações sensíveis, como chaves de API e URLs. Crie um arquivo `.env` na raiz do projeto e configure as seguintes variáveis:
+The app uses environment variables to store sensitive information like API keys and URLs. Create a `.env` file at the root of the project and configure the following variables:
 
 ```
-API_BASE_URL=https://sua-url-da-api.com
-GOOGLE_MAPS_API_KEY=sua-chave-da-api-do-google-maps
+API_BASE_URL=https://your-api-url.com
+GOOGLE_MAPS_API_KEY=your-google-maps-api-key
 ```
 
-### Autenticação OAuth 2.0 📝
+### OAuth  2.0 Authentication 📝
 
-O aplicativo utiliza o protocolo OAuth 2.0 para autenticação. Consulte a documentação sobre como configurar a autenticação OAuth 2.0 para obter mais informações.
+The app uses OAuth  2.0 for user authentication. Refer to the documentation on setting up OAuth  2.0 for more information.
 
-### Configuração do Banco de Dados 🗄️
+### Database Configuration 🗄️
 
-O aplicativo utiliza o RealmDB para armazenar dados. Certifique-se de que o RealmDB esteja instalado no projeto e configure os esquemas de banco de dados conforme necessário.
+The app uses RealmDB to store data. Ensure RealmDB is installed in the project and configure the database schemas as needed.
 
-## Funcionalidades 🚀
+## Features 🚀
 
-O aplicativo oferece as seguintes funcionalidades principais:
+The application offers the following main features:
 
-- Registro de Utilização de Veículos 📋
-- Autenticação de Usuários 🔐
-- Integração com APIs de Mapas (Google Maps) 🗺️
-- Armazenamento de Dados no RealmDB 🏦
-- Geocodificação de Endereços 🌍
-- Exibição de Mapas Interativos 🗺️
-- Customização de Marcadores no Mapa 📍
+- Vehicle Usage Registration 📋
+- User Authentication 🔐
+- Integration with Map APIs (Google Maps) 🗺️
+- Data Storage in RealmDB 🏦
+- Address Geocoding  🌍
+- Interactive Maps Display 🗺️
+- Map Marker Customization 📍
 - Background Tasks ⏲️
 
-## Documentação 📚
+## Documentation 📚
 
-Para obter informações detalhadas sobre como usar o aplicativo, consulte a documentação disponível no diretório `docs` deste repositório. A documentação inclui guias passo a passo, exemplos de código e informações sobre a integração com serviços externos.
+For detailed information on how to use the application, consult the documentation available in the `docs` directory of this repository. The documentation includes step-by-step guides, code examples, and information on integrating with external services.
 
-## Bibliotecas e Tecnologias Utilizadas 📦
+## Used Libraries and Technologies 📦
 
-O aplicativo foi desenvolvido utilizando as seguintes bibliotecas e tecnologias:
+The application was developed using the following libraries and technologies:
 
 - React Native
 - Styled Components
 - React Navigation
 - Expo Location
 - React-Native-Maps
-- OAuth 2.0
+- OAuth  2.0
 - RealmDB
 
-Consulte o arquivo `package.json` para obter a lista completa de dependências do projeto.
+Check the `package.json` file for the complete list of project dependencies.
 
-## Licença 📜
+## License 📜
 
-Este projeto é licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
-
----
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
